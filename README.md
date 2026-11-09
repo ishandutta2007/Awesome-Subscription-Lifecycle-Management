@@ -38,6 +38,7 @@
   - [🛠️ Deep-Dive into Open-Source Solutions](#️-deep-dive-into-open-source-solutions)
 - [🧩 Subscription Lifecycle Architecture &amp; Key Concepts](#-subscription-lifecycle-architecture--key-concepts)
 - [🤝 Contributing](#-contributing)
+- [💖 Support &amp; Sponsorship](#-support--sponsorship)
 - [##  Star History](#--star-history)
 - [📄 License](#-license)
 
@@ -240,6 +241,28 @@ Contributions are warmly welcomed! If you would like to submit a new open-source
 5. 📬 Open a pull request against the `main` branch.
 
 Please ensure open-source submissions are genuinely open-source (permissive or copyleft license) and actively maintained.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using **Awesome Subscription Lifecycle Management**!
+
+Curating, researching, and keeping this directory continuously up to date with verified SaaS pricing tiers, open-source projects, and subscription architecture best practices requires dedicated effort. If this repository has helped you or your engineering/finance team make better billing infrastructure decisions, please consider supporting the project:
+
+- ⭐ **Star this repository** to boost visibility and help others discover it.
+- 🍴 **Fork and share** the repo with your developer community and colleagues.
+- 📢 **Spread the word** on Twitter/X, LinkedIn, Reddit, or developer forums.
+- ☕ **Buy me a coffee / Sponsor on GitHub:** You can sponsor ongoing maintenance and research directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+</p>
 
 ---
 
