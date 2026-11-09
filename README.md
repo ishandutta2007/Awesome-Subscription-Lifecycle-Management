@@ -124,80 +124,80 @@ Self-hosted, transparent, and extensible open-source subscription and billing en
 
 ### ⭐ Open-Source Leaderboard
 
-Below is the open-source leaderboard sorted descending by **GitHub Stars**:
+Below is the open-source leaderboard sorted descending by **GitHub_Stars**:
 
-| 🛠️ Project | ⭐ GitHub Stars | 💻 Technology Stack | 📜 License | 🎯 Primary Focus |
+| 🛠️ Project | ⭐ GitHub_Stars | 💻 Technology Stack | 📜 License | 🎯 Primary Focus |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Hyperswitch](https://github.com/juspay/hyperswitch)** | [![GitHub stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) | Rust / PostgreSQL / Redis | Apache-2.0 | High-performance payment switch, recurring routing &amp; mandate vaulting |
-| **[Lago](https://github.com/getlago/lago)** | [![GitHub stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Ruby on Rails / PostgreSQL / Redis / ClickHouse | AGPL-3.0 | Modern usage-based metering, hybrid pricing, and subscription billing engine |
-| **[Crater](https://github.com/crater-invoice/crater)** | [![GitHub stars](https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white)](https://github.com/crater-invoice/crater/stargazers) | PHP / Laravel / Vue.js / MySQL | AGPL-3.0 | Self-hosted invoicing, recurring billing, and client payment portal |
-| **[Kill Bill](https://github.com/killbill/killbill)** | [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Java / MySQL / PostgreSQL / MariaDB | Apache-2.0 | Battle-tested enterprise subscription lifecycle &amp; payment engine since 2010 |
-| **[OpenMeter](https://github.com/openmeterio/openmeter)** | [![GitHub stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers) | Go / ClickHouse / Kafka / PostgreSQL | Apache-2.0 | Real-time cloud-native usage metering and consumption billing for AI &amp; APIs |
-| **[Tier](https://github.com/tierrun/tier)** | [![GitHub stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers) | Go / Stripe SDK | Apache-2.0 | Developer-first pricing SDK and model engine powered by Stripe |
-| **[Servicebot](https://github.com/service-bot/servicebot)** | [![GitHub stars](https://img.shields.io/github/stars/service-bot/servicebot?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers) | JavaScript / Node.js / React / MongoDB | GPL-3.0 | Open-source subscription management and self-serve onboarding portal |
-| **[UniBee](https://github.com/UniBee-Billing/unibee)** | [![GitHub stars](https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white)](https://github.com/UniBee-Billing/unibee/stargazers) | Go / Vue.js / MySQL | Apache-2.0 | Self-hosted SaaS recurring billing, checkout portal &amp; license key engine |
-| **[Reorder](https://github.com/reorder-js/reorder)** | [![GitHub stars](https://img.shields.io/github/stars/reorder-js/reorder?style=social&color=white)](https://github.com/reorder-js/reorder/stargazers) | TypeScript / Medusa Framework | MIT | Native headless subscription plugin with dunning retries for Medusa.js |
-| **[Zentla](https://github.com/hexrift/zentla)** | [![GitHub stars](https://img.shields.io/github/stars/hexrift/zentla?style=social&color=white)](https://github.com/hexrift/zentla/stargazers) | TypeScript / Node.js / PostgreSQL | Apache-2.0 | Vendor-agnostic monetization layer, entitlements &amp; multi-provider billing |
+| **[Hyperswitch](https://github.com/juspay/hyperswitch)** | [![GitHub_Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) | Rust / PostgreSQL / Redis | Apache-2.0 | High-performance payment switch, recurring routing &amp; mandate vaulting |
+| **[Lago](https://github.com/getlago/lago)** | [![GitHub_Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Ruby on Rails / PostgreSQL / Redis / ClickHouse | AGPL-3.0 | Modern usage-based metering, hybrid pricing, and subscription billing engine |
+| **[Crater](https://github.com/crater-invoice/crater)** | [![GitHub_Stars](https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white)](https://github.com/crater-invoice/crater/stargazers) | PHP / Laravel / Vue.js / MySQL | AGPL-3.0 | Self-hosted invoicing, recurring billing, and client payment portal |
+| **[Kill Bill](https://github.com/killbill/killbill)** | [![GitHub_Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Java / MySQL / PostgreSQL / MariaDB | Apache-2.0 | Battle-tested enterprise subscription lifecycle &amp; payment engine since 2010 |
+| **[OpenMeter](https://github.com/openmeterio/openmeter)** | [![GitHub_Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers) | Go / ClickHouse / Kafka / PostgreSQL | Apache-2.0 | Real-time cloud-native usage metering and consumption billing for AI &amp; APIs |
+| **[Tier](https://github.com/tierrun/tier)** | [![GitHub_Stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers) | Go / Stripe SDK | Apache-2.0 | Developer-first pricing SDK and model engine powered by Stripe |
+| **[Servicebot](https://github.com/service-bot/servicebot)** | [![GitHub_Stars](https://img.shields.io/github/stars/service-bot/servicebot?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers) | JavaScript / Node.js / React / MongoDB | GPL-3.0 | Open-source subscription management and self-serve onboarding portal |
+| **[UniBee](https://github.com/UniBee-Billing/unibee)** | [![GitHub_Stars](https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white)](https://github.com/UniBee-Billing/unibee/stargazers) | Go / Vue.js / MySQL | Apache-2.0 | Self-hosted SaaS recurring billing, checkout portal &amp; license key engine |
+| **[Reorder](https://github.com/reorder-js/reorder)** | [![GitHub_Stars](https://img.shields.io/github/stars/reorder-js/reorder?style=social&color=white)](https://github.com/reorder-js/reorder/stargazers) | TypeScript / Medusa Framework | MIT | Native headless subscription plugin with dunning retries for Medusa.js |
+| **[Zentla](https://github.com/hexrift/zentla)** | [![GitHub_Stars](https://img.shields.io/github/stars/hexrift/zentla?style=social&color=white)](https://github.com/hexrift/zentla/stargazers) | TypeScript / Node.js / PostgreSQL | Apache-2.0 | Vendor-agnostic monetization layer, entitlements &amp; multi-provider billing |
 
 ---
 
 ### 🛠️ Deep-Dive into Open-Source Solutions
 
-#### 1. [Hyperswitch](https://github.com/juspay/hyperswitch) [![GitHub stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers)
+#### 1. [Hyperswitch](https://github.com/juspay/hyperswitch) [![GitHub_Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers)
 * **Stack:** Rust / PostgreSQL / Redis | **License:** Apache-2.0
 * **Overview:** Developed by Juspay, Hyperswitch is an ultra-fast payment orchestration switch that manages card vaulting, multi-processor smart routing, automated recurring payment mandates, and subscription failover.
 * **Key Features:** Single API across 50+ payment processors, customer payment method tokenization, unified dunning retries, zero vendor lock-in, and sub-second payment routing latencies.
 * **Best For:** High-volume platforms needing full ownership over recurring transaction routing and multi-gateway redundancy.
 
-#### 2. [Lago](https://github.com/getlago/lago) [![GitHub stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)
+#### 2. [Lago](https://github.com/getlago/lago) [![GitHub_Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)
 * **Stack:** Ruby on Rails / PostgreSQL / Redis / ClickHouse | **License:** AGPL-3.0
 * **Overview:** The premier open-source metering and billing engine built as an alternative to Chargebee and Stripe Billing. Lago decouples usage calculation from payment execution.
 * **Key Features:** Event-based consumption metering, prepaid wallet credits, hybrid recurring + metered pricing, coupon &amp; discount management, automatic invoice PDF generation, and webhook triggers to sync with Stripe, Adyen, and GoCardless.
 * **Best For:** Modern SaaS, AI, and developer tools teams wanting an open, scalable consumption-billing stack without paying a percentage of their GMV.
 
-#### 3. [Crater](https://github.com/crater-invoice/crater) [![GitHub stars](https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white)](https://github.com/crater-invoice/crater/stargazers)
+#### 3. [Crater](https://github.com/crater-invoice/crater) [![GitHub_Stars](https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white)](https://github.com/crater-invoice/crater/stargazers)
 * **Stack:** PHP / Laravel / Vue.js / MySQL | **License:** AGPL-3.0
 * **Overview:** A beautifully designed web and mobile invoicing and recurring billing suite crafted for freelancers, agencies, and small service companies.
 * **Key Features:** Automated recurring invoices, payment gateway support (Stripe, PayPal, Razorpay), multi-currency estimates, tax calculations, customer self-serve portals, and dedicated iOS &amp; Android companion apps.
 * **Best For:** Freelancers and digital agencies requiring a turnkey, self-hosted recurring invoicing tool with a clean UI.
 
-#### 4. [Kill Bill](https://github.com/killbill/killbill) [![GitHub stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers)
+#### 4. [Kill Bill](https://github.com/killbill/killbill) [![GitHub_Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers)
 * **Stack:** Java / MySQL / PostgreSQL / MariaDB | **License:** Apache-2.0
 * **Overview:** The most established and battle-tested open-source subscription and billing engine in the world, in continuous active production since 2010 under the permissive Apache-2.0 license.
 * **Key Features:** Complete subscription lifecycle management: multi-phase pricing (trials, introductory discounts, evergreen renewals), complex catalog definitions, proration calculations, invoice generation, overdue dunning state machines, and modular OSGI plugins for Stripe, Adyen, Braintree, Avalara, and Vertex.
 * **Best For:** Mid-market and enterprise engineering teams committed to owning their billing infrastructure with strict regulatory or on-premise data residency mandates.
 
-#### 5. [OpenMeter](https://github.com/openmeterio/openmeter) [![GitHub stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers)
+#### 5. [OpenMeter](https://github.com/openmeterio/openmeter) [![GitHub_Stars](https://img.shields.io/github/stars/openmeterio/openmeter?style=social&color=white)](https://github.com/openmeterio/openmeter/stargazers)
 * **Stack:** Go / ClickHouse / Apache Kafka / PostgreSQL | **License:** Apache-2.0
 * **Overview:** A high-throughput, cloud-native usage metering platform that collects, aggregates, and attributes product consumption events with sub-second latency.
 * **Key Features:** Kafka-backed event streaming, ClickHouse OLAP aggregation for billions of events, real-time entitlement gating, balance tracking, and bidirectional connectors for Stripe Billing and Lago.
 * **Best For:** AI and cloud infrastructure products that charge by tokens, compute seconds, or network bandwidth and need real-time customer balances.
 
-#### 6. [Tier](https://github.com/tierrun/tier) [![GitHub stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers)
+#### 6. [Tier](https://github.com/tierrun/tier) [![GitHub_Stars](https://img.shields.io/github/stars/tierrun/tier?style=social&color=white)](https://github.com/tierrun/tier/stargazers)
 * **Stack:** Go / Stripe SDK | **License:** Apache-2.0
 * **Overview:** An open-source pricing engine and developer SDK that defines SaaS pricing models via declarative JSON (`pricing.json`) and runs seamlessly on top of Stripe.
 * **Key Features:** Unified API for feature gating (`tier.can()`), meter reporting (`tier.report()`), and checkout session creation; eliminates billing boilerplate code in application layers.
 * **Best For:** Software engineers standardizing on Stripe who want clean, code-first feature access control and pricing plan definitions.
 
-#### 7. [Servicebot](https://github.com/service-bot/servicebot) [![GitHub stars](https://img.shields.io/github/stars/service-bot/servicebot?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers)
+#### 7. [Servicebot](https://github.com/service-bot/servicebot) [![GitHub_Stars](https://img.shields.io/github/stars/service-bot/servicebot?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers)
 * **Stack:** JavaScript / Node.js / React / MongoDB | **License:** GPL-3.0
 * **Overview:** An open-source subscription management and billing automation application that wraps Stripe Elements and Stripe Billing into a ready-to-deploy customer portal.
 * **Key Features:** Embeddable pricing tables, self-service customer billing portals (upgrade, downgrade, cancel, update payment method), and configurable webhook notifications.
 * **Best For:** Rapid prototyping and bootstrapped indie developers seeking a quick drop-in customer billing portal for Stripe.
 
-#### 8. [UniBee](https://github.com/UniBee-Billing/unibee) [![GitHub stars](https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white)](https://github.com/UniBee-Billing/unibee/stargazers)
+#### 8. [UniBee](https://github.com/UniBee-Billing/unibee) [![GitHub_Stars](https://img.shields.io/github/stars/UniBee-Billing/unibee?style=social&color=white)](https://github.com/UniBee-Billing/unibee/stargazers)
 * **Stack:** Go / Vue.js / MySQL | **License:** Apache-2.0
 * **Overview:** A self-hosted subscription billing and client management system created specifically for independent software vendors and digital product developers.
 * **Key Features:** Automated recurring invoicing, self-serve subscriber portal, coupon management, license key generation, multi-tier pricing, and automated VAT/tax breakdowns.
 * **Best For:** Software vendors selling downloadable desktop applications or self-hosted license keys with subscription renewals.
 
-#### 9. [Reorder (Medusa)](https://github.com/reorder-js/reorder) [![GitHub stars](https://img.shields.io/github/stars/reorder-js/reorder?style=social&color=white)](https://github.com/reorder-js/reorder/stargazers)
+#### 9. [Reorder (Medusa)](https://github.com/reorder-js/reorder) [![GitHub_Stars](https://img.shields.io/github/stars/reorder-js/reorder?style=social&color=white)](https://github.com/reorder-js/reorder/stargazers)
 * **Stack:** TypeScript / Medusa Commerce Framework | **License:** MIT
 * **Overview:** An MIT-licensed native subscription plugin tailored for the Medusa headless e-commerce ecosystem, eliminating third-party recurring billing SaaS fees.
 * **Key Features:** Full subscription lifecycle state machine (create, pause, resume, skip order, cancel), configurable dunning intervals with smart retries, admin UI extensions, and customer storefront endpoints.
 * **Best For:** Direct-to-consumer (D2C) brands, physical subscription boxes, and e-commerce stores running on Medusa 2.0+.
 
-#### 10. [Zentla](https://github.com/hexrift/zentla) [![GitHub stars](https://img.shields.io/github/stars/hexrift/zentla?style=social&color=white)](https://github.com/hexrift/zentla/stargazers)
+#### 10. [Zentla](https://github.com/hexrift/zentla) [![GitHub_Stars](https://img.shields.io/github/stars/hexrift/zentla?style=social&color=white)](https://github.com/hexrift/zentla/stargazers)
 * **Stack:** TypeScript / Node.js / PostgreSQL | **License:** Apache-2.0
 * **Overview:** A modern, vendor-agnostic monetization and entitlements layer that allows companies to decouple product features and plan access from the underlying payment processor.
 * **Key Features:** Multi-provider billing abstraction (Stripe, Zuora, Adyen), real-time feature gating, unified revenue analytics, and automated plan migration tooling.
@@ -236,7 +236,7 @@ Contributions are warmly welcomed! If you would like to submit a new open-source
 
 1. 🍴 Fork the repository.
 2. 🌿 Create your feature branch (`git checkout -b feature/add-new-billing-tool`).
-3. 📝 Add your entry with accurate metadata (project URL, stack, license, GitHub stars, and key differentiator).
+3. 📝 Add your entry with accurate metadata (project URL, stack, license, GitHub_Stars, and key differentiator).
 4. 🚀 Commit your changes (`git commit -m "Add New-Billing-Tool to open-source directory"`).
 5. 📬 Open a pull request against the `main` branch.
 
