@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 320" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <radialGradient id="glowPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#8b5cf6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowRight" cx="80%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#f8fafc"/>
+      <stop offset="70%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes pulseAura {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.15); opacity: 0.8; }
+      }
+      @keyframes cycleDash {
+        to { stroke-dashoffset: -120; }
+      }
+      @keyframes nodeGlow {
+        0%, 100% { fill: #38bdf8; filter: drop-shadow(0 0 4px #38bdf8); }
+        50% { fill: #f43f5e; filter: drop-shadow(0 0 10px #f43f5e); }
+      }
+      .bg-glow {
+        transform-origin: center;
+        animation: pulseAura 8s ease-in-out infinite;
+      }
+      .float-1 {
+        animation: floatSlow 5s ease-in-out infinite;
+      }
+      .float-2 {
+        animation: floatReverse 6s ease-in-out infinite;
+      }
+      .float-3 {
+        animation: floatSlow 7s ease-in-out infinite;
+      }
+      .orbit-flow {
+        stroke-dasharray: 8, 8;
+        animation: cycleDash 12s linear infinite;
+      }
+      .active-node {
+        animation: nodeGlow 4s ease-in-out infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 34px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="980" height="320" rx="16" fill="url(#bgGrad)" />
+  <rect width="978" height="318" x="1" y="1" rx="15" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Animated Background Glows -->
+  <circle class="bg-glow" cx="490" cy="160" r="280" fill="url(#glowPulse)" pointer-events="none" />
+  <circle cx="820" cy="80" r="160" fill="url(#glowRight)" pointer-events="none" />
+
+  <!-- Dynamic Subscription Flow Loop (Background Layer) -->
+  <g opacity="0.45" pointer-events="none">
+    <path class="orbit-flow" d="M 120,230 C 260,280 720,280 860,230 C 920,200 900,120 820,100 C 680,60 300,60 160,100 C 80,125 70,210 120,230 Z" fill="none" stroke="#6366f1" stroke-width="2.5" />
+    <circle cx="160" cy="100" r="5" fill="#38bdf8" />
+    <circle cx="490" cy="65" r="4" fill="#a855f7" />
+    <circle cx="820" cy="100" r="5" class="active-node" />
+    <circle cx="860" cy="230" r="4.5" fill="#10b981" />
+    <circle cx="490" cy="275" r="5" fill="#f59e0b" />
+    <circle cx="120" cy="230" r="4.5" fill="#ec4899" />
+  </g>
+
+  <!-- Floating Dynamic Feature Pills (Behind main title, around edges) -->
+  <g class="float-1" transform="translate(60, 48)">
+    <rect width="180" height="32" rx="16" fill="url(#pillGrad1)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" filter="url(#shadow)"/>
+    <text x="90" y="21" text-anchor="middle" fill="#38bdf8" class="pill-text">⚡ Metering &amp; Usage</text>
+  </g>
+
+  <g class="float-2" transform="translate(740, 48)">
+    <rect width="175" height="32" rx="16" fill="url(#pillGrad1)" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1" filter="url(#shadow)"/>
+    <text x="87" y="21" text-anchor="middle" fill="#f472b6" class="pill-text">🔄 Dunning &amp; Recovery</text>
+  </g>
+
+  <g class="float-3" transform="translate(65, 240)">
+    <rect width="185" height="32" rx="16" fill="url(#pillGrad1)" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" filter="url(#shadow)"/>
+    <text x="92" y="21" text-anchor="middle" fill="#34d399" class="pill-text">💳 Merchant of Record</text>
+  </g>
+
+  <g class="float-1" transform="translate(730, 240)">
+    <rect width="190" height="32" rx="16" fill="url(#pillGrad1)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1" filter="url(#shadow)"/>
+    <text x="95" y="21" text-anchor="middle" fill="#a5b4fc" class="pill-text">🌐 Multi-Gateway Billing</text>
+  </g>
+
+  <!-- Foreground Title and Core Branding (Always in Foreground) -->
+  <g filter="url(#shadow)" transform="translate(490, 138)">
+    <!-- Central Icon/Badge Symbol -->
+    <g transform="translate(-24, -58)">
+      <rect width="48" height="48" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+      <path d="M 24,12 A 12,12 0 1,0 36,24" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+      <polygon points="33,16 39,23 31,25" fill="#38bdf8"/>
+      <circle cx="24" cy="24" r="4" fill="#a855f7"/>
+    </g>
+
+    <text y="18" text-anchor="middle" fill="url(#textGrad)" class="title-text">
+      Awesome Subscription Lifecycle Management
+    </text>
+    <text y="48" text-anchor="middle" fill="#94a3b8" class="subtitle-text">
+      Curated directory of SaaS &amp; Open-Source Recurring Billing, Usage Metering, Invoicing &amp; Churn Recovery
+    </text>
+
+    <!-- Bottom Feature Tag Badges -->
+    <g transform="translate(0, 78)">
+      <text text-anchor="middle" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="12" font-weight="500" letter-spacing="1.2">
+        ENTERPRISE MONETIZATION • HYBRID PRICING • SELF-HOSTED PLATFORMS
+      </text>
+    </g>
+  </g>
+</svg>
